@@ -58,6 +58,10 @@ button {
     flex-direction: column;
     min-width: 0;
 }
+.page{
+    display: block;
+    max-width: 980px;
+}
 
 
 .page-area {
@@ -66,13 +70,6 @@ button {
     padding: 30px 36px 60px;
 }
 
-.page {
-    display: none;
-}
-.page.active {
-    display: block;
-    max-width: 980px;
-}
 
 .page-header {
     margin-bottom: 22px;
